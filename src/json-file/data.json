@@ -1,0 +1,198 @@
+{
+  "bannerImage": {
+    "login": {
+      "img": "assets/images/banner/about-inner.jpg",
+      "alt": "login banner image",
+      "title": "login banner image"
+    },
+    "flight": {
+      "img": "assets/images/banner/flight-banner.jpg",
+      "alt": "flight banner image",
+      "title": "flight banner image"
+    },
+    "SearchingFlights": {
+      "img": "assets/images/banner/flight-banner.jpg",
+      "alt": "Searching Flights banner image",
+      "title": "Searching Flights banner image"
+    },
+    "hotel": {
+      "img": "assets/images/banner/hotel-banner.jpg",
+      "alt": "hotel banner image",
+      "title": "hotel banner image"
+    },
+    "deal": {
+      "img": "assets/images/banner/voucher-banner.jpg",
+      "alt": "deal banner image",
+      "title": "voucher banner image"
+    },
+    "faqs": {
+      "img": "assets/images/banner/faq-banner.jpg",
+      "alt": "faq banner image",
+      "title": "faq banner image"
+    },
+    "about": {
+      "img": "assets/images/banner/about-inner.jpg",
+      "alt": "about banner image",
+      "title": "about banner image"
+    },
+    "privacypolicy": {
+      "img": "assets/images/banner/p-p-banner.jpg",
+      "alt": "privacy policy banner image",
+      "title": "privacy policy banner image"
+    },
+    "tac": {
+      "img": "assets/images/banner/tnc-banner1.jpg",
+      "alt": "tac banner image",
+      "title": "terms and conditions banner image"
+    },
+    "contact": {
+      "img": "assets/images/banner/con-banner.jpg",
+      "alt": "contact banner image",
+      "title": "contact banner image"
+    }
+  },
+  "sliderImg": [
+    {
+      "id": 1,
+      "slideImg": "assets/images/banner/AD1.png",
+      "alt": "Slider image one",
+      "title": "Slider image one",
+      "slideTit": "Redeem flights & let your next adventure take off!",
+      "slideLink": "/flight",
+      "slideBtn": "Get a Flight",
+      "slideBtnCls": "btn slide-one"
+    },
+    {
+      "id": 2,
+      "slideImg": "assets/images/banner/AD2.png",
+      "alt": "Slider image two",
+      "title": "Slider image two",
+      "slideTit": "Unlock unforgettable hotel stays and check into comfort!",
+      "slideLink": "/hotel",
+      "slideBtn": "Book a Hotel",
+      "slideBtnCls": "btn slide-two"
+    },
+    {
+      "id": 3,
+      "slideImg": "assets/images/banner/AD3.png",
+      "alt": "Slider image three",
+      "title": "Slider image three",
+      "slideTit": "Turn points into purchases at your favorite stores!",
+      "slideLink": "/deal",
+      "slideBtn": "Buy at Store",
+      "slideBtnCls": "btn slide-three"
+    }
+  ],
+  "selectedPreferredAirline": [
+    {
+      "id":1,
+      "airline_name": "Kenya Airways",
+      "selectedAirlineCode":"KQ",
+      "airlineImg":"assets/images/logos/kenya-airways.svg"
+    },
+    {
+      "id":2,
+      "airline_name": "Qatar Airways",
+      "selectedAirlineCode":"QR",
+      "airlineImg":"assets/images/logos/qatar-airways.svg"
+    },
+    {
+      "id":3,
+      "airline_name": "Emirates Airlines",
+      "selectedAirlineCode":"EK",
+      "airlineImg":"assets/images/logos/emirates-logo.svg"
+    },
+    {
+      "id":4,
+      "airline_name": "British Airlines",
+      "selectedAirlineCode":"BA",
+      "airlineImg":"assets/images/logos/british-airways.svg"
+    },
+    {
+      "id":5,
+      "airline_name": "KLM Airline",
+      "selectedAirlineCode":"XT",
+      "airlineImg":"assets/images/logos/kl-logo.svg"
+    },
+    {
+      "id":6,
+      "airline_name": "Ethiopian Airlines",
+      "selectedAirlineCode":"ET",
+      "airlineImg":"assets/images/logos/et-logo.png"
+    },
+    {
+      "id":7,
+      "airline_name": "Air France",
+      "selectedAirlineCode":"AF",
+      "airlineImg":"assets/images/logos/af-logo.svg"
+    },
+    {
+      "id":8,
+      "airline_name": "Air Arabia Airline",
+      "selectedAirlineCode":"G9",
+      "airlineImg":"assets/images/logos/air-arabia-logo.svg"
+    },
+    {
+      "id":9,
+      "airline_name": "Saudi Arabian Airline",
+      "selectedAirlineCode":"EY",
+      "airlineImg":"assets/images/logos/saudi-arabian-airlines.svg"
+    },
+    {
+      "id":10,
+      "airline_name": "Fly Dubai",
+      "selectedAirlineCode":"FZ",
+      "airlineImg":"assets/images/logos/fly-dubai.svg"
+    },
+    {
+      "id":11,
+      "airline_name": "Etihad Airlines",
+      "selectedAirlineCode":"SV",
+      "airlineImg":"assets/images/logos/Etihad-Airways-logo.svg"
+    },
+    {
+      "id":12,
+      "airline_name": "Delta Airlines",
+      "selectedAirlineCode":"DL",
+      "airlineImg":"assets/images/logos/Delta-Logo.svg"
+    }
+  ],
+
+  "tripCategory":[
+    {"id":1,"name":"One way", "value":"oneway"},
+    {"id":2,"name":"Round trip","value":"roundtrip"}
+  ],
+  "cabinClass":[
+    { "id":1, "name":"Economy", "value":"economy" },
+    {  "id":2, "name":"Business",  "value":"business" },
+    { "id":3,"name":"First","value":"first"}
+  ],
+  "adtVal":[
+    {"id":1,"value":"1"},
+    {"id":2,"value":"2"},
+    {"id":3,"value":"3"},
+    {"id":4,"value":"4"},
+    {"id":5,"value":"5"},
+    {"id":6,"value":"6"},
+    {"id":7,"value":"7"},
+    {"id":8, "value":"8"},
+    {"id":9,"value":"9"}
+  ],
+  "infVal":[
+    {"id":1,"value":"0"},
+    {"id":2,"value":"1"},
+    {"id":3,"value":"2"},
+    {"id":4,"value":"3"},
+    {"id":5,"value":"4"},
+    {"id":6, "value":"5"},
+    {"id":7,"value":"6"},
+    {"id":8, "value":"7"},
+    {"id":9,"value":"8"},
+    {"id":10, "value":"9"}
+  ],
+  "flightStop":[
+    {"id":1, "name":"Non Stop","value":"0"},
+    { "id":2, "name":"One Stop","value":"1" },
+    {"id":3,"name":"Two Stops","value":"2"}
+  ]
+}

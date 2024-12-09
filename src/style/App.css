@@ -1,0 +1,545 @@
+@font-face {
+  font-family: 'Bliss2-Regular';
+  src: url('../../public/fonts/bliss.eot'); /* For IE */
+  src: url('../../public/fonts/bliss.eot?#iefix') format("embedded-opentype"), 
+       url('../../public/fonts/Bliss2.woff2') format("woff2"), 
+       url('../../public/fonts/Bliss2.woff') format("woff"),
+       url('../../public/fonts/Bliss2.ttf') format("truetype"), 
+       url('../../public/fonts/Bliss2.svg') format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  font-family: 'Bliss2-Regular';
+  color: #133379;
+}
+h1{
+  font-family: 'Bliss2-Regular';
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 18px;
+  color: #133379;
+    text-transform: capitalize;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a.navbar-brand {
+  width: 139px;
+}
+a.navbar-brand>img {
+  width: 100%;
+}
+.main-div-hight {
+  min-height: calc(100vh - 240px);
+  height: 100%;
+}
+
+
+.login-content label {
+  font-size: 12px;
+  color: #7482cc;
+}
+.login-content .form-control, 
+.login-content .form-control:focus {
+  line-height: 18px;
+  height: 48px;
+  opacity: 1;
+  background-color: rgb(232, 240, 254);
+  border-color: rgb(232, 240, 254) ;
+  border-radius: 16px;
+  outline: none;
+  box-shadow: none;
+}
+.login-content .cus-btn, 
+.login-content .cus-btn:hover, 
+.login-content .cus-btn:focus{
+  cursor: pointer;
+    line-height: 1;
+    height: 35px;
+    text-align: center;
+    padding: 10px;
+    background: #133379;
+    border-color:#133379 ;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-radius: 16px;
+}
+.main-footer{
+  background: #133379;
+}
+.main-footer ul.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-footer ul.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.main-footer ul.navbar-nav li {
+  padding: 0 6px;
+}
+.main-footer ul.navbar-nav li a {
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+.login-content {
+  max-width: 602px;
+  width: 93%;
+  padding: 27px 28px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #fff;
+  position: relative;
+  box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.20);
+  z-index: 2;
+}
+
+ul.custom-navbar-nav {
+    display: flex;
+    justify-content: end;
+    width: 140px;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+}
+ul.custom-navbar-nav>li.nav-item {
+  width: auto;
+  display: inline-block;
+  margin: 0 0 0 20px;
+  cursor: pointer;
+}
+ul.custom-navbar-nav>li.nav-item i.fa {
+  font-size: 24px;
+  color: #133379;
+}
+.redeemList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:30px 0;
+    margin: 0 auto;
+}
+.redeemList a{
+  text-decoration: none;
+}
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #eef7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.redeemList p {
+    margin: 13px 0 16px;
+    line-height: 22px;
+    font-size: 16px;
+    color: rgb(0, 62, 126);
+}
+p.michael{
+      font-size: 18px;
+      font-weight: bold;
+      color: rgb(0, 62, 126);
+  }
+.iconRedemption {
+  color: #133379 !important;
+  font-size: 20px !important;
+}
+.points-badge {
+  padding: 0 12px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #635b40, #bea85d);
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  float: right;
+  margin-bottom: 19px;
+  height: 40px;
+}
+.points-badge img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.points-badge .pts {
+  font-size: 12px;
+  margin-left: 3px;
+  margin-top: 6px;
+}
+.carousel.carousel-slider {
+  padding-bottom: 35px;
+}
+.banner-slider .carousel, 
+.banner-slider .carousel.carousel-slider > button.control-arrow.control-next, 
+.banner-slider .carousel.carousel-slider > .carousel-status {
+  display: none;
+}
+
+.banner-slider .carousel.carousel-slider{
+  display: block;
+}
+.banner-slider .carousel.carousel-slider ul.slider.animated > li{
+  position: relative;
+}
+.banner-slider .carousel.carousel-slider ul.slider.animated > li .slider-content{
+  position: absolute;
+  top: 25px;
+  left: 24px;
+  width: 169px;
+}
+.banner-slider .carousel.carousel-slider ul.slider.animated > li:first-child .slider-content, 
+.banner-slider .carousel.carousel-slider ul.slider.animated > li:nth-child(2) .slider-content {
+  width: 166px;
+}
+.banner-slider .carousel.carousel-slider ul.slider.animated > li:last-child .slider-content {
+  width: 169px;
+}
+.banner-slider .slider-content>h4 {
+  color: #020909;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.2px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.banner-slider .slider-content>.btn {
+  width: 120px;
+  height: 32px;
+  padding: 8px 8px 8px 12px;
+  border-radius: 30px !important;
+  display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.banner-slider .slider-content>.btn {
+  padding: 8px 8px 8px 12px;
+  border-radius: 30px !important;
+  color: #fff;
+}
+.banner-slider .slide-one {
+  background: linear-gradient(90deg, #C8B265 0%, #978135 100%);
+}
+.banner-slider .slide-two {
+  background: linear-gradient(90deg, #F9AF0B 0%, #EF2888 100%);
+}
+.banner-slider .slide-three {
+  background: linear-gradient(90deg, #00BEAF 0%, #2CB64C 100%);
+}
+.banner-slider .carousel .control-dots {
+  width: 66px;
+  z-index: 1;
+  right: 0;
+  margin: 0;
+}
+.banner-slider .carousel .control-dots .dot {
+  background-color: #ccc;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  opacity: 1;
+}
+.banner-slider .carousel .control-dots .dot.selected{
+  background-color: #6fd5ef;
+}
+.tab-menu.nav.nav-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+  background: 0 0;
+  padding: 17px 0 0;
+  float: none;
+  margin: 0;
+}
+.tab-menu li {
+  float: left;
+  width: 33%;
+  display: block;
+  height: 125px;
+}
+.tab-menu li:nth-child(4), .tab-menu li:last-child{
+  width: 50%;
+}
+.tab-menu li a {
+  padding: 5px 2px;
+  font-family: 'Bliss2-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.0043em;
+  color: #133379;
+  border: none !important;
+}
+.tab-menu li a:hover{
+border: none;
+}
+.tab-menu li i {
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 47px;
+  line-height: 36px;
+  height: 47px;
+  background: rgb(238, 247, 251);
+  border-radius: 50%;
+}
+.tab-menu li:nth-child(1) i span {
+  background: url('../../public/assets/images/web-portal/transaction_blue.png') no-repeat center center;
+  width: 24px;
+  height: 35px;
+  display: inline-block;
+}
+.tab-menu li:nth-child(2) i span {
+  background: url('../../public/assets/images/web-portal/gift_blue.svg') no-repeat center center;
+  width: 24px;
+  height: 35px;
+  display: inline-block;
+}
+.tab-menu li:nth-child(3) i span {
+  background: url('../../public/assets/images/web-portal/plane_blue.png')no-repeat center center;
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+}
+.tab-menu li:nth-child(4) i span {
+  background: url('../../public/assets/images/web-portal/user-minus_blue.svg') no-repeat center center;
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+}
+.tab-menu li:nth-child(5) i span {
+  background: url('../../public/assets/images/web-portal/user-plus_blue.svg') no-repeat center center;
+  width: 24px;
+  height: 35px;
+  display: inline-block;
+}
+.tab-menu li a.active i {
+  background: #133379;
+  border-radius: 50%;
+}
+.tab-menu li:nth-child(1) a.active i span {
+  background: url('../../public/assets/images/web-portal/transaction_white.png') no-repeat center center;
+}
+.tab-menu li:nth-child(2) a.active i span {
+  background: url('../../public/assets/images/web-portal/gift_white.png') no-repeat center center;
+}
+.tab-menu li:nth-child(3) a.active i span {
+  background: url('../../public/assets/images/web-portal/plane_white.png') no-repeat center center;
+  width: 25px;
+}
+.tab-menu li:nth-child(4) a.active i span {
+  background: url('../../public/assets/images/web-portal/user-minus_white.png') no-repeat center center;
+  width: 23px;
+}
+.tab-menu li:nth-child(5) a.active i span {
+  background: url('../../public/assets/images/web-portal/user-plus_white.png') no-repeat center center;
+}
+
+.outer-bg-box {
+  background: #fff;
+  max-width: 90%;
+  margin: -14px auto 0;
+  border-radius: 4px;
+  padding: 20px 15px;
+  box-shadow: 10px 0 22px #4332324d;
+}
+
+/* Common Modal Css */
+.cus-preferred-airline-modal.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0 0 0 / 17%);
+}
+.cus-preferred-airline-modal .modal-body ul.list-group {
+  height: 300px;
+  overflow-y: auto;
+}
+.cus-preferred-airline-modal .modal-body ul li {
+  display: flex;
+  align-items: center;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.cus-preferred-airline-modal .modal-body span img {
+  width: 50px;
+  margin-right: 20px;
+}
+.cus-preferred-airline-modal .btn {
+  line-height: 23px;
+  padding: 16px 0px;
+  background: #133379;
+  background: -moz-linear-gradient(left, #133379 0, #133379 100%);
+  background: -webkit-linear-gradient(left, #133379 0, #133379 100%);
+  background: linear-gradient(to right, #133379 0, #133379 100%);
+  color: #fff !important;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+#flightBookingPage {
+  margin-top: -45px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #efe3e3;
+}
+#flightBookingPage label{
+  color: rgb(19, 51, 151) ;
+  font-size: 16px ;
+  text-transform: capitalize;
+}
+#flightBookingPage .form-group{
+  margin-bottom: 10px;
+  position: relative;
+}
+#flightBookingPage .form-control{
+  background: rgb(242, 245, 247);
+  border-radius: 50px;
+  height: 48px;
+  padding: 0 20px;
+  margin: 4px 0;
+  width: 100%;
+  border: 1.5px solid #ccc;
+}
+#flightBookingPage .cus-select-arrow:before{
+  position: absolute;
+  bottom: 25px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-right: 0.2em solid #69778c;
+  border-top: 0.2em solid #69778c;
+  transform: rotate(135deg);
+  margin-right: 0.5em;
+  margin-left: 1em;
+  right: 25px;
+  z-index: 1;
+  border-left: 0;
+}
+#flightBookingPage .form-control.d-icon{
+  background:rgb(242, 245, 247) url('../../public//assets/images/web-portal/date.svg') no-repeat 95% center ;
+}
+#flightBookingPage .form-control.error{
+  border-color: red;
+}
+#flightBookingPage .react-datepicker-wrapper {
+  width: 100%;
+}
+.cus-default-btn {
+  width: 100%;
+  text-transform: capitalize;
+  border-radius: 50px !important;
+  background: #0b1d81 !important;
+  color: #fff !important;
+  margin: 15px 0 0;
+}
+/* Date Picker Css Start */
+.react-datepicker {
+  font-family: 'Bliss2-Regular';
+}
+.react-datepicker__header__dropdown.react-datepicker__header__dropdown--select {
+  padding: 13px 0;
+}
+button.react-datepicker__navigation.react-datepicker__navigation--previous,
+button.react-datepicker__navigation.react-datepicker__navigation--next{
+  background-image: url('../../public/assets/images/web-portal/sprite.png');
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 33px;
+  background-position: 95% top;
+  top: 24px;
+  right: 10px;
+}
+button.react-datepicker__navigation.react-datepicker__navigation--previous{
+  right: auto;
+  left: 10px;
+  background-position: 77% top;
+  width: 21px;
+  height: 39px;
+}
+button.react-datepicker__navigation.react-datepicker__navigation--next>.react-datepicker__navigation-icon--next::before, 
+button.react-datepicker__navigation.react-datepicker__navigation--previous>.react-datepicker__navigation-icon--previous::before{
+  content:none !important;
+}
+.react-datepicker-popper {
+  z-index: 2 !important;
+}
+.react-datepicker__header {
+    background: #fff !important;
+    border: none !important;
+}
+.react-datepicker__header h2{
+  display: none;
+}
+.react-datepicker__month-dropdown-container--select, 
+.react-datepicker__year-dropdown-container--select{
+  margin: 0 !important;
+}
+select.react-datepicker__month-select, select.react-datepicker__year-select {
+  background: url('../../public/assets/images/web-portal/arrow.png') 92% 19px no-repeat #fff !important;
+  border: 1px solid #eaefff;
+  border-radius: 2px;
+  padding: 4px 30px 7px 10px;
+  height: 46px;
+  line-height: 46px;
+  -webkit-appearance: none;
+  font-size: 18px;
+  color: rgb(19, 51, 121);
+}
+.react-datepicker__day {
+  padding: 5px !important;
+  text-align: center !important;
+  text-decoration: none;
+  border: 1px solid #fff !important;
+  background: #fff !important;
+  font-weight: 400 !important;
+  color: rgb(19, 51, 121) !important;
+  font-size: 13px !important;
+  width: 38px !important;
+  height: 38px !important;
+}
+.react-datepicker__day-name{
+  width: 38px !important;
+  height: 38px !important;
+  color: rgb(19, 51, 121) !important;
+  font-size: 15px !important;
+  line-height: 37px !important;
+  font-family: Bliss2-Regular !important;
+}
+.react-datepicker__week .react-datepicker__day--keyboard-selected{
+  background: rgb(19, 51, 121) !important;
+  border: 1px solid rgb(19, 51, 121) !important;
+  padding: 5px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.react-datepicker__day--disabled{
+  cursor: default;
+  color: #ccc !important;
+}
+/* Date Picker Css End */
