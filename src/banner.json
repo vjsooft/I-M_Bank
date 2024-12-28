@@ -1,0 +1,48 @@
+{
+    "login": {
+      "img": "assets/images/banner/about-inner.jpg",
+      "alt": "login banner image",
+      "title":"login banner image"
+    },
+    "flight": {
+      "img": "assets/images/banner/flight-banner.jpg",
+      "alt": "flight banner image",
+      "title":"flight banner image"
+    },
+    "hotel": {
+      "img": "assets/images/banner/hotel-banner.jpg",
+      "alt": "hotel banner image",
+      "title":"hotel banner image"
+    },
+    "deal": {
+      "img": "assets/images/banner/voucher-banner.jpg",
+      "alt": "hotel banner image",
+      "title":"hotel banner image"
+    },
+    "faqs": {
+        "img": "assets/images/banner/faq-banner.jpg",
+        "alt": "hotel banner image",
+        "title":"hotel banner image"
+    },
+    "about": {
+      "img": "assets/images/banner/about-inner.jpg",
+      "alt": "about banner image",
+      "title":"about banner image"
+    },
+    "privacypolicy": {
+      "img": "assets/images/banner/p-p-banner.jpg",
+      "alt": "privacy policy banner image",
+      "title":"privacy policy banner image"
+    },
+    "tac": {
+      "img": "assets/images/banner/tnc-banner1.jpg",
+      "alt": "tac banner image",
+      "title":"tac banner image"
+    },
+    "contact":{
+      "img": "assets/images/banner/con-banner.jpg",
+      "alt": "contact banner image",
+      "title":"contact banner image"
+    }
+
+}

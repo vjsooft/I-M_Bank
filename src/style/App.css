@@ -21,6 +21,20 @@ h1{
   color: #133379;
     text-transform: capitalize;
 }
+h4>span{
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(19, 51, 121);
+  display: block;
+}
+.cus-box-shadow{
+  box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.20);
+  border-radius: 4px;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
 ul, li{
   margin: 0;
   padding: 0;
@@ -38,7 +52,10 @@ a.navbar-brand>img {
   min-height: calc(100vh - 240px);
   height: 100%;
 }
-
+.mt-space{
+  margin-top: -10px;
+  position: relative;
+}
 
 .login-content label {
   font-size: 12px;
@@ -408,16 +425,20 @@ border: none;
   border-radius: 5px;
   border: 1px solid #efe3e3;
 }
-#flightBookingPage label{
+#flightBookingPage label, 
+.modify-search-modal label{
   color: rgb(19, 51, 151) ;
   font-size: 16px ;
   text-transform: capitalize;
+  display: block;
 }
-#flightBookingPage .form-group{
+#flightBookingPage .form-group, 
+.modify-search-modal .form-group{
   margin-bottom: 10px;
   position: relative;
 }
-#flightBookingPage .form-control{
+#flightBookingPage .form-control, 
+.modify-search-modal .form-control{
   background: rgb(242, 245, 247);
   border-radius: 50px;
   height: 48px;
@@ -426,7 +447,8 @@ border: none;
   width: 100%;
   border: 1.5px solid #ccc;
 }
-#flightBookingPage .cus-select-arrow:before{
+#flightBookingPage .cus-select-arrow:before, 
+.modify-search-modal  .cus-select-arrow:before{
   position: absolute;
   bottom: 25px;
   content: "";
@@ -441,13 +463,17 @@ border: none;
   z-index: 1;
   border-left: 0;
 }
-#flightBookingPage .form-control.d-icon{
+#flightBookingPage .form-control.d-icon,
+.modify-search-modal  .form-control.d-icon{
   background:rgb(242, 245, 247) url('../../public//assets/images/web-portal/date.svg') no-repeat 95% center ;
 }
 #flightBookingPage .form-control.error{
   border-color: red;
 }
 #flightBookingPage .react-datepicker-wrapper {
+  width: 100%;
+}
+.react-datepicker-wrapper {
   width: 100%;
 }
 .cus-default-btn {
@@ -469,7 +495,7 @@ button.react-datepicker__navigation.react-datepicker__navigation--previous,
 button.react-datepicker__navigation.react-datepicker__navigation--next{
   background-image: url('../../public/assets/images/web-portal/sprite.png');
   background-repeat: no-repeat;
-  width: 22px;
+  width: 16px;
   height: 33px;
   background-position: 95% top;
   top: 24px;
@@ -477,9 +503,9 @@ button.react-datepicker__navigation.react-datepicker__navigation--next{
 }
 button.react-datepicker__navigation.react-datepicker__navigation--previous{
   right: auto;
-  left: 10px;
-  background-position: 77% top;
-  width: 21px;
+  left: 22px;
+  background-position: 75% top;
+  width: 13px;
   height: 39px;
 }
 button.react-datepicker__navigation.react-datepicker__navigation--next>.react-datepicker__navigation-icon--next::before, 
@@ -531,7 +557,8 @@ select.react-datepicker__month-select, select.react-datepicker__year-select {
   line-height: 37px !important;
   font-family: Bliss2-Regular !important;
 }
-.react-datepicker__week .react-datepicker__day--keyboard-selected{
+.react-datepicker__week .react-datepicker__day--keyboard-selected, 
+.react-datepicker__day--selected{
   background: rgb(19, 51, 121) !important;
   border: 1px solid rgb(19, 51, 121) !important;
   padding: 5px !important;
@@ -543,3 +570,185 @@ select.react-datepicker__month-select, select.react-datepicker__year-select {
   color: #ccc !important;
 }
 /* Date Picker Css End */
+
+ul.airport-name {
+  padding: 0 10px;
+  margin: 0 auto;
+  border: 1.5px solid #ccc;
+  background: rgb(242, 245, 247);
+  border-radius: 12px;
+  position: absolute;
+  z-index: 12;
+  left: 6%;
+  right: auto;
+  top: 100%;
+  width: 313px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+ul.airport-name>li.item {
+  border-bottom: 0.1px solid #ccc;
+  margin: 0;
+  padding: 10px 4px;
+}
+
+.cus-airline-modal.modal.show{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0 0 0 / 17%);
+}
+.common-loader {
+  text-align: center;
+}
+.common-loader img.img-fluid {
+  width: 121px;
+  margin-bottom: 20px;
+}
+.cus-airline-modal .common-loader h1{
+  display: none;
+}
+.cus-airline-modal  .arrow {
+  display: inline-block;
+  border-top: 6px solid #000;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  transform: rotate(-90deg);
+  margin: 0 6px;
+}
+.cus-airline-modal ul{
+  padding: 0;
+  margin: 0;
+}
+.cus-airline-modal .modal-body>p{
+  color:rgb(19, 51, 121);
+  font-family:'Bliss2-Regular';
+  font-size:17px;
+  font-weight:500;
+  line-height:17px;
+}
+.cus-airline-modal ul li{
+  font-family:'Bliss2-Regular';
+  font-size:12px; 
+  color:rgb(19, 51, 121);
+  margin-bottom: 10px;
+}
+.cus-airline-modal .cityName {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.cus-common-modal.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:#fff;
+}
+.cus-common-modal.modal .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 270px;
+    margin: 0 auto;
+}
+.cus-common-modal img.img-fluid {
+  width: 120px;
+  margin: 0 auto;
+}
+ul.tab-menu.search-pg {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 10px 10px 0;
+  box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.20);
+  border-radius: 4px;
+  background: #fff;
+}
+ul.tab-menu.search-pg li:nth-child(odd) {
+  width: 56%;
+  height: auto;        
+  margin: 0 0 10px;
+  font-size: 11px;
+  line-height: 20px;
+}
+ul.tab-menu.search-pg li:nth-child(even) {
+  width: 42%;
+  height: auto;        
+  margin: 0 0 10px;
+  font-size: 11px;
+  line-height: 20px;
+}
+ul.tab-menu.search-pg li{
+  position: relative;
+}
+ul.tab-menu.search-pg li.active:before{
+  content: "";
+  height: 3px;
+    width: 55px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#133379 ;
+}
+.flightWayResultOuter {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.ind-number{
+  background: #133379;
+  color: #fff;
+  height: 18px;
+  margin: 0 5px 0 0;
+  width: 18px;
+  display: inline-block;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 100px;
+}
+.filter-modal, 
+.modify-search-modal {
+  position: fixed;
+  bottom: -100%;
+  background: #fff;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  z-index: 2;
+  height: 63%;
+  overflow-y: auto;
+  transition: all 0.4s;
+}
+.cus-filter-active .filter-modal,
+.cus-search-active .modify-search-modal{
+  bottom: 0;
+  transition: all 0.4s;
+}
+.cus-filter-active:before,
+.cus-search-active:before {
+  content: "";
+  position: fixed;
+  background: rgb(0 0 0 / 20%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: all 0.4s;
+}
+.modify-search-modal form.row .col-xs-6 {
+  width: 100%;
+  max-width: 50%;
+}
+.pl-1 {
+  padding-left: 5px !important;
+}
+.pr-1 {
+  padding-right: 5px !important;
+}

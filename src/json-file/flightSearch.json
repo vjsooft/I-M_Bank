@@ -1,0 +1,642 @@
+[
+    {
+    "route": {
+        "departure_city": "Mumbai",
+        "departure_airport": "BOM",
+        "arrival_city": "Dubai",
+        "arrival_airport": "DXB"
+    },
+    "trip_type": "single",
+    "flight_number": "AI202",
+    "airline": "Air India",
+    "departure": {
+        "time": "2024-12-20T08:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "arrival": {
+        "time": "2024-12-20T09:30:00",
+        "timezone": "Asia/Dubai",
+        "airport": "DXB"
+    },
+    "duration": "3h 30m",
+    "travel_duration": "3h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 15000
+    },
+    "aircraft": "Boeing 787",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Dubai",
+        "departure_airport": "DXB",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "round",
+    "flight_number": "EK502",
+    "airline": "Emirates",
+    "departure": {
+        "time": "2024-12-20T13:00:00",
+        "timezone": "Asia/Dubai",
+        "airport": "DXB"
+    },
+    "arrival": {
+        "time": "2024-12-20T16:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "3h 30m",
+    "travel_duration": "3h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "AED",
+        "amount": 750
+    },
+    "aircraft": "Boeing 777",
+    "logo_url": "https://example.com/logos/emirates.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Dubai",
+        "arrival_airport": "DXB"
+    },
+    "trip_type": "single",
+    "flight_number": "AI931",
+    "airline": "Air India",
+    "departure": {
+        "time": "2024-12-20T07:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2024-12-20T09:00:00",
+        "timezone": "Asia/Dubai",
+        "airport": "DXB"
+    },
+    "duration": "3h 30m",
+    "travel_duration": "3h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 18000
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Dubai",
+        "departure_airport": "DXB",
+        "arrival_city": "Delhi",
+        "arrival_airport": "DEL"
+    },
+    "trip_type": "round",
+    "flight_number": "G931",
+    "airline": "GoAir",
+    "departure": {
+        "time": "2024-12-21T10:00:00",
+        "timezone": "Asia/Dubai",
+        "airport": "DXB"
+    },
+    "arrival": {
+        "time": "2024-12-21T14:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "duration": "3h 30m",
+    "travel_duration": "3h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "AED",
+        "amount": 450
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/goair.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI202",
+    "airline": "Air India",
+    "departure": {
+        "time": "2024-12-20T11:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2024-12-20T13:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "2h 30m",
+    "travel_duration": "2h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 12000
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Mumbai",
+        "departure_airport": "BOM",
+        "arrival_city": "Delhi",
+        "arrival_airport": "DEL"
+    },
+    "trip_type": "round",
+    "flight_number": "AI103",
+    "airline": "Air India",
+    "departure": {
+        "time": "2024-12-21T08:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "arrival": {
+        "time": "2024-12-21T10:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "duration": "2h 30m",
+    "travel_duration": "2h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 14000
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Mumbai",
+        "departure_airport": "BOM",
+        "arrival_city": "Dubai",
+        "arrival_airport": "DXB"
+    },
+    "trip_type": "single",
+    "flight_number": "EK500",
+    "airline": "Emirates",
+    "departure": {
+        "time": "2024-12-20T15:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "arrival": {
+        "time": "2024-12-20T17:30:00",
+        "timezone": "Asia/Dubai",
+        "airport": "DXB"
+    },
+    "duration": "3h 30m",
+    "travel_duration": "3h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 22000
+    },
+    "aircraft": "Boeing 777",
+    "logo_url": "https://example.com/logos/emirates.png"
+    },
+    {
+    "route": {
+        "departure_city": "Dubai",
+        "departure_airport": "DXB",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "round",
+    "flight_number": "EK506",
+    "airline": "Emirates",
+    "departure": {
+        "time": "2024-12-20T20:00:00",
+        "timezone": "Asia/Dubai",
+        "airport": "DXB"
+    },
+    "arrival": {
+        "time": "2024-12-21T01:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "3h 30m",
+    "travel_duration": "3h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "AED",
+        "amount": 950
+    },
+    "aircraft": "Boeing 777",
+    "logo_url": "https://example.com/logos/emirates.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Dubai",
+        "arrival_airport": "DXB"
+    },
+    "trip_type": "single",
+    "flight_number": "AI934",
+    "airline": "Air India",
+    "departure": {
+        "time": "2024-12-22T09:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2024-12-22T11:00:00",
+        "timezone": "Asia/Dubai",
+        "airport": "DXB"
+    },
+    "duration": "3h 30m",
+    "travel_duration": "3h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 17000
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI202",
+    "airline": "Air India",
+    "departure": {
+        "time": "2025-01-04T11:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T13:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "2h 30m",
+    "travel_duration": "2h 30m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 12000
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+
+
+
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI502",
+    "airline": "Spicejet",
+    "departure": {
+        "time": "2025-01-04T07:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T09:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "2h 10m",
+    "travel_duration": "2h 10m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 6755
+    },
+    "aircraft": "Airbus A620",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+
+
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI502",
+    "airline": "Spicejet",
+    "departure": {
+        "time": "2025-01-04T09:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T10:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "1h 00m",
+    "travel_duration": "1h 00m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 6755
+    },
+    "aircraft": "Airbus A620",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI502",
+    "airline": "Spicejet",
+    "departure": {
+        "time": "2025-01-04T09:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T10:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "1h 00m",
+    "travel_duration": "1h 00m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 6755
+    },
+    "aircraft": "Airbus A620",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI202",
+    "airline": "Air India",
+    "departure": {
+        "time": "2025-01-04T05:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T06:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "1h 00m",
+    "travel_duration": "1h 00m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 18000
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI202",
+    "airline": "Air India",
+    "departure": {
+        "time": "2025-01-04T04:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T05:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "1h 00m",
+    "travel_duration": "1h 00m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 18000
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI202",
+    "airline": "Air India",
+    "departure": {
+        "time": "2025-01-04T07:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T08:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "1h 00m",
+    "travel_duration": "1h 00m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 9850
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI202",
+    "airline": "Air India",
+    "departure": {
+        "time": "2025-01-04T03:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T05:30:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "2h 00m",
+    "travel_duration": "2h 00m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 9850
+    },
+    "aircraft": "Airbus A320",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI502",
+    "airline": "Spicejet",
+    "departure": {
+        "time": "2025-01-04T03:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T04:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "1h 00m",
+    "travel_duration": "1h 00m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 8796
+    },
+    "aircraft": "Airbus A620",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI502",
+    "airline": "Spicejet",
+    "departure": {
+        "time": "2025-01-04T06:40:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T08:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "1h 20m",
+    "travel_duration": "1h 20m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 9968
+    },
+    "aircraft": "Airbus A620",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI502",
+    "airline": "Spicejet",
+    "departure": {
+        "time": "2025-01-04T10:40:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T11:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "1h 40m",
+    "travel_duration": "1h 40m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 9879
+    },
+    "aircraft": "Airbus A620",
+    "logo_url": "https://example.com/logos/air_india.png"
+    },
+    {
+    "route": {
+        "departure_city": "Delhi",
+        "departure_airport": "DEL",
+        "arrival_city": "Mumbai",
+        "arrival_airport": "BOM"
+    },
+    "trip_type": "single",
+    "flight_number": "AI502",
+    "airline": "Spicejet",
+    "departure": {
+        "time": "2025-01-04T11:00:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "DEL"
+    },
+    "arrival": {
+        "time": "2025-01-04T11:58:00",
+        "timezone": "Asia/Kolkata",
+        "airport": "BOM"
+    },
+    "duration": "1h 58m",
+    "travel_duration": "1h 58m",
+    "stops": 0,
+    "price": {
+        "currency": "INR",
+        "amount": 19879
+    },
+    "aircraft": "Airbus A620",
+    "logo_url": "https://example.com/logos/air_india.png"
+    }
+
+
+]
+  

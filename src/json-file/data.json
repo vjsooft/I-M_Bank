@@ -194,5 +194,11 @@
     {"id":1, "name":"Non Stop","value":"0"},
     { "id":2, "name":"One Stop","value":"1" },
     {"id":3,"name":"Two Stops","value":"2"}
+  ],
+  "airlineSelectedPage":[
+    {"id":1,"name":"Select Flight","active":"select-flight"},
+    {"id":2,"name":"Review Selection","active":"review"},
+    {"id":3,"name":"Pay with I&M Milele Points","active":"Tpay-with"},
+    {"id":4,"name":"Booking Confirmation","active":"confirmation"}
   ]
 }
